@@ -1,0 +1,23 @@
+# If you do not have OpenSSL installed, change
+# the following line to use 'http://'
+source 'https://rubygems.org'
+
+gem 'therubyracer'
+
+# Middleman Gems
+gem 'middleman', '>= 4.0.0'
+
+gem 'middleman-foo', path: "../"
+
+
+
+################
+# for debug
+
+gem 'pry-byebug'
+gem 'middleman-pry'   
+gem 'middleman-livereload'
+
+gem 'cucumber'
+gem 'rake'
+
